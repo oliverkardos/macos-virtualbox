@@ -75,7 +75,7 @@ if [[ "$(sw_vers 2>/dev/null)" && "${get_parameters_from_macOS_host}" =~ [Yy] ]]
     SystemUUID="${ioreg_system_id}"         # System UUID, stored in NVRAM
 fi
 
-system_integrity_protection='10'  # '10' - enabled, '77' - disabled
+system_integrity_protection='77'  # '10' - enabled, '77' - disabled
 
 # Additional configurations may be saved in external files and loaded with the
 # following command prior to executing the script:
